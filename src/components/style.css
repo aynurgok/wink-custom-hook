@@ -1,0 +1,32 @@
+.wink-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.wink-emoji {
+  font-size: 64px;
+  animation-name: wink-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes wink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
