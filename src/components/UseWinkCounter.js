@@ -15,7 +15,7 @@ function useWinkCounter() {
     }, [count]);
   
     const incrementCount = () => {
-      setCount(prevCount => prevCount + 1);
+      setCount(count => count + 1);
       
     };
   
